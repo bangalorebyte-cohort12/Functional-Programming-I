@@ -1,0 +1,14 @@
+'''
+Passing Functions. Write a sister function to the testit() function described in this chapter.
+ Rather than testing execution for errors, timeit() will take a function object (along with any arguments)
+ and time how long it takes to execute the function. Return the following values: function return value, time elapsed.
+  You can use time.clock() or time. time(), whichever provides you with greater accuracy.
+  (The general consensus is to use time.time() on POSIX and time.clock() on Win32 systems.) Note: The timeit() function is not
+  related to the timeit module
+'''
+
+import time
+
+
+def measureTime():
+ 
